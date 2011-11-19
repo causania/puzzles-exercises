@@ -66,33 +66,6 @@ You can generate the IntelliJ project by running: sbt gen-idea
 
 ==========================================================================================
 
-SPECIFICATIONS:
-
-We ask that you read all three descriptions thoroughly then create a
-program to solve _ONE_ of the problems.  If you choose to do more than one
-problem, we will choose and evaluate only one of your solutions.
-
-You may not use any external libraries to solve this problem; however,
-you may use external libraries or tools for building or testing purposes.
-Specifically, you may use tools such as JUnit or Ant, SBT to assist your
-development.
-
-Code should be clean and tested.
-
-You may also include a brief explanation of your design and assumptions
-along with your code.
-
-
-INTRODUCTION TO THE PROBLEMS:
-
-All problems below require some kind of input. You are free to implement
-any mechanism for feeding input into your solution (for example, using
-hard coded data within a unit test).  You should provide sufficient
-evidence that your solution is complete by, as a minimum, indicating that
-it works correctly against the supplied test data.
-
-==========
-
 
 PROBLEM ONE: TRAINS
 

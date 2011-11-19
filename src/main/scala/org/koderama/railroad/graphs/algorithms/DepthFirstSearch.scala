@@ -53,7 +53,7 @@ class DepthFirstSearch[N, E <: Int](graph: LabeledGraph[N, E]) {
     if (maxLevels == -1 && maxCost == -1) {
       throw new IllegalGraphActionException("maxLevels and maxCost can't be both -1. An ending criteria must be provided")
     }
-    
+
     // Check that the nodes exist
     (graph.findNode(start), graph.findNode(goal)) match {
       case (Some(root), Some(target)) => {
