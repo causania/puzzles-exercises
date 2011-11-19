@@ -1,0 +1,21 @@
+welcome=************************************************************************
+welcome=Hi There! Welcome to the interactive mode.
+welcome=This is a VERY simple client to be able to perform additional tests.
+welcome=************************************************************************
+options=These are the commands to run. Please be sure to follow the instructions exactly as the examples.
+commands=-----------------------------------------------------------------------
+commands=1. "q" will exit the interactive mode
+commands=2. "map" prints the current map definition
+commands=3. "map:AB5,CD4,BF3" will enter a new graph definition. The new graph definition will be printed out.
+commands=4. "cost:A-B-D" calculates the cost from A to D
+commands=5. "routes:C-C -1 3 -1" calculates a route from C to C where minStops is -1, maxStops is 3, maxDistance is -1
+commands=The -1 value means to not consider the parameter.
+commands=Examples from the specification: 7="routes:A-C 4 4 -1"  10="routes:C-C -1 -1 29"
+commands=6. "shortestroute:A-C" will print the shortest route from A-C
+commands=-----------------------------------------------------------------------
+bye=See you later!
+newmap=A new route map was defined
+nocommand=No command found
+error=Upss there was an error... Please check your command.
+totalroutes=Total routes found:
+totalcost=Total cost of the route: 
